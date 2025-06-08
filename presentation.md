@@ -62,7 +62,7 @@ style: |
   --font-main: 'Inter', sans-serif;
   --color-dark-blue: #0d2b51;
   --color-white: #ffffff;
-  --color-accent-red: #005fB9;
+  --color-accent-blue: #005fB9;
   --color-bg-light: #f8f9fa;
   --color-border: #dee2e6;
 }
@@ -84,7 +84,7 @@ section:not(.title) h2 {
   text-align: left;
   margin-bottom: 30px;
   padding-bottom: 10px;
-  border-bottom: 4px solid var(--color-accent-red);
+  border-bottom: 4px solid var(--color-accent-blue);
   color: var(--color-dark-blue);
 }
 
@@ -92,7 +92,7 @@ section:not(.title) h3 {
   font-family: var(--font-main);
   font-weight: 700;
   font-size: 32px;
-  color: var(--color-accent-red);
+  color: var(--color-accent-blue);
 }
 
 section:not(.title) ul {
@@ -110,14 +110,14 @@ section:not(.title) li::before {
   content: '■';
   position: absolute;
   left: 0;
-  color: var(--color-accent-red);
+  color: var(--color-accent-blue);
   font-size: 0.8em;
   top: 0.2em;
 }
 
 section:not(.title) b, section:not(.title) strong {
   font-weight: 600;
-  color: var(--color-accent-red);
+  color: var(--color-accent-blue);
 }
 </style>
 <style scoped>
@@ -128,7 +128,7 @@ section:not(.title) b, section:not(.title) strong {
   align-items: start;
 }
 .problem-layout h3 {
-  border-bottom: 3px solid var(--color-accent-red);
+  border-bottom: 3px solid var(--color-accent-blue);
   padding-bottom: 8px;
   margin-bottom: 20px;
   margin-top: 0;
@@ -173,7 +173,7 @@ p:last-of-type {
   margin-top: 0;
   padding-bottom: 8px;
   margin-bottom: 20px;
-  border-bottom: 3px solid var(--color-accent-red);
+  border-bottom: 3px solid var(--color-accent-blue);
 }
 .tool-block {
     margin-bottom: 25px;
@@ -242,7 +242,7 @@ p:last-of-type {
 }
 .left-pane-compact h3::before {
   content: '■';
-  color: var(--color-accent-red);
+  color: var(--color-accent-blue);
   margin-right: 12px;
   font-size: 0.8em;
 }
@@ -451,7 +451,7 @@ p:last-of-type {
   margin-top: 0;
   padding-bottom: 8px;
   margin-bottom: 20px;
-  border-bottom: 3px solid var(--color-accent-red);
+  border-bottom: 3px solid var(--color-accent-blue);
 }
 .summary-layout li {
   font-size: 24px;
@@ -465,7 +465,7 @@ p:last-of-type {
 }
 .perspectives li::before {
   content: '›';
-  color: var(--color-accent-red);
+  color: var(--color-accent-blue);
 }
 </style>
 
